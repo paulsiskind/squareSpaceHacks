@@ -1,0 +1,293 @@
+<div id="title">
+    <div class='container'>
+        <div class="row">
+              <div class="col-xs-12 jumbotron">
+                    <h1><b>Smart Panel Retrofit Kit</b></h1>
+                    <h3>LED Replacement with Advanced Wireless Controls</h3>
+                    <p>Amatis Retrofit Kits with Advanced Wireless Controls offer all the energy savings of a standard LED upgrade and more. Embedded Amatis 6LoWirelessTM controls allow customers and installers to program a turn-key LED lighting system with occupancy timeouts, daylight harvesting, detailed scheduling, and smooth dimming profiles in order to comply with energy codes.</p>
+                    <br>
+                    <p>Amatis sensors and switches are designed for fast installation. Wireless commissioning of devices and lighting zones is quick and simple with the Amatis smartphone app saving valuable time on site.</p>
+              </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="fill">
+    <div class="col-xs-12 filler">
+    </div>
+</div>
+
+<div id="tabs">
+    <ul>
+        <li><a href="#tabs-1">Key Features</a></li>
+        <li><a href="#tabs-2">Technical Specifications</a></li>
+        <li><a href="#tabs-3">Applications</a></li>
+        <li><a href="#tabs-4">Product Summary</a></li>
+        <li><a href="#tabs-5">Certifications</a></li>
+    </ul>
+    <div id="tabs-1">
+        <div class='container'>
+            <div class="col-xs-12 well">
+                <h1><b>Key Features</b></h1>
+            </div>
+            <div class="col-xs-7 jumbotron">
+                <ul>
+                    <li><span>Embedded 6LoWirelessTM communication module</span></li>
+                    <li><span>Simple wiring for quick installation</span></li>
+                    <li><span>Excellent Color Rendering (CRI: 94+)</span></li>
+                    <li><span>High Efficiency (PF >0.95)</span></li>
+                    <li><span>Individually addressable devices for grouping & zones</span></li>
+                    <li><span>Lumen package up to 94 lm/W</span></li>
+                    <li><span>Ultra thin panel design</span></li>
+                    <li><span>Plug in motion & light sensor (optional temp & humidity)</span></li>
+                    <li><span>Cost effective solution for code compliance</span></li>
+                    <li><span>Real-time data uploaded to Lighting Dashboard</span></li>
+                    <li><span>Reports energy savings & tracks return on investment</span></li>
+                </ul>
+            </div>
+            <div class="col-xs-5">
+                <img src="http://static1.squarespace.com/static/54db9f6de4b088f32cfb6567/t/577bd8d4725e25e0affcefa7/1467734229234/panelRetro.png">
+            </div>
+        </div>
+    </div>
+    <div id="tabs-2">
+        <div class="container">
+            <div class="col-xs-12 well">
+                <h1><b>Technical Specifications</b></h1>
+            </div>
+            <div class="col-xs-7 jumbotron">
+                <ul>
+                    <li><span>Specs based on a 2ft x 2ft LED panel and 1 Smart Driver</span></li>
+                    <li><span>Input Voltage: 90-277VAC or 277-350VAC (50-60Hz)</span></li>
+                    <li><span>Input Current: 0.28A @120V, 0.12A @277V, 0.09A @347V</span></li>
+                    <li><span>Driver THD: < 20%, Power Factor: > 0.95</span></li>
+                    <li><span>Light Source CCT: 4000 K ± 300</span></li>
+                    <li><span>Brightness: 2280 lm ± 200, Beam Angle: 115° ± 3°</span></li>
+                    <li><span>Life Span: > 50,000 hrs (L70)</span></li>
+                    <li><span>Sensor Output: Class 2, 24VDC, 50mA max, RJ11 port</span></li>
+                    <li><span>Working Temp: -10° to 40°C</span></li>
+                </ul>
+            </div>
+            <div class="col-xs-5">
+                <img src="http://static1.squarespace.com/static/54db9f6de4b088f32cfb6567/t/577bd8d4725e25e0affcefa7/1467734229234/panelRetro.png">
+            </div>
+        </div>
+    </div>
+    <div id="tabs-3">
+        <div class='container'>
+            <div class="col-xs-12 well">
+                <h1><b>Applications</b></h1>
+            </div>
+            <div class="col-xs-7 jumbotron">
+                <p>Amatis T8 LED Retrofit Kits are the perfect solution for:</p>
+                <div class="col-xs-6">
+                    <ul>
+                        <li><span>Office building</span></li>
+                        <li><span>Grocery stores</span></li>
+                        <li><span><span>Parking garages</span></li>
+                    </ul>
+                </div>
+                <div class="col-xs-6">
+                    <ul>
+                        <li><span>Schools</span></li>
+                        <li><span>Retails Stores</span></li>
+                        <li><span>Warehouses</span></li>
+                    </ul> 
+                </div>
+            </div>
+            <div class="col-xs-5">
+                <img src="http://static1.squarespace.com/static/54db9f6de4b088f32cfb6567/t/577bd8d4725e25e0affcefa7/1467734229234/panelRetro.png">
+            </div>
+        </div>
+    </div>
+    <div id="tabs-4">
+        <div class='container'>
+            <div class="col-xs-12 well">
+                <h1><b>Product Summary</b></h1>
+            </div>
+            <div class="col-xs-7 jumbotron">
+                <p>Amatis Retrofit Kits with Advanced Wireless Controls offer all the energy savings of a standard LED upgrade and more. Embedded Amatis 6LoWirelessTM controls allow customers and installers to program a turn-key LED lighting system with occupancy timeouts, daylight harvesting, detailed scheduling, and smooth dimming profiles in order to comply with energy codes.</p>
+                <br>
+                <p>Amatis sensors and switches are designed for fast installation. Wireless commissioning of devices and lighting zones is quick and simple with the Amatis smartphone app saving valuable time on site.</p>
+            </div>
+            <div class="col-xs-5">
+                <img src="http://static1.squarespace.com/static/54db9f6de4b088f32cfb6567/t/577bd8d4725e25e0affcefa7/1467734229234/panelRetro.png">
+            </div>
+        </div>
+
+    </div>
+    <div id="tabs-5">
+        <div class="container">
+            <div class="col-xs-12 well">
+                <h1><b>Certifications</b></h1>
+            </div>
+            <div class="col-xs-12 cert">                
+                <img src="http://static1.squarespace.com/static/54db9f6de4b088f32cfb6567/t/576d898cff7c50623af7546e/1466796428795/etl_cus.jpg">           
+                <img src="http://static1.squarespace.com/static/54db9f6de4b088f32cfb6567/t/576d89daff7c50623af757c7/1466796506189/FCC_New_Logo.png">     
+                <img src="http://static1.squarespace.com/static/54db9f6de4b088f32cfb6567/t/5772cf92440243412cd3d765/1467142034903/classified-ul.png">     
+                <img src="http://static1.squarespace.com/static/54db9f6de4b088f32cfb6567/t/576d8c7bc534a5dec9e9fc09/1466797180077/rohs-weee.png">     
+                <img src="http://static1.squarespace.com/static/54db9f6de4b088f32cfb6567/t/576d8d02725e250fe55211cf/1466797314212/dlc-qpl-listed-article.gif">
+            </div>
+        </div>
+    </div>
+</div>
+<div id="filler">
+    <div class="col-xs-12 filler">
+    </div>
+</div>
+
+<div id="moarTabs">
+    <ul>
+        <li><a href="#tab-1">Advanced Wireless Controls</a></li>
+        <li><a href="#tab-2">APP</a></li>
+        <li><a href="#tab-3">Dashboard</a></li>
+        <li><a href="#tab-4">Installation and Wiring</a></li>
+        <li><a href="#tab-5">Photometric Info</a></li>
+        <li><a href="#tab-6">Color Comparison</a></li>
+    </ul>
+
+    <div id="tab-1">
+        <div class="container">
+            <div class="col-xs-12 well">
+                  <h1><b>Advanced Wireless Lighting Controls</b></h1>              
+            </div>
+                <div class="col-xs-6 jumbotron">
+                    <p>The Amatis smart lighting solution has all the benefits of a wireless control system made easy to install and affordable. Amatis motion and light sensors are designed for plug-and- play installation and our wireless switches can be installed virtually anywhere.</p>
+                    <br>
+                    <p>The Amatis Border Router (AMBR) can communicate wirelessly with up to 200 devices, monitoring the system and uploading real-time data to our Lighting Dashboard.</p>
+                    <br>
+                    <p>Smart occupancy settings allow for different light levels at different times of the day, enabling additional energy savings.</p>
+                </div>
+                <div class="col-xs-6">
+                    <h2>Wireless Switches & Sensors</h2>
+                    <img src="http://static1.squarespace.com/static/54db9f6de4b088f32cfb6567/t/57759839be6594033c713d30/1467324485712/switches">
+                </div>
+
+
+        </div>
+        <div class="col-xs-12">
+            <br>
+            <br>
+            <hr>
+        </div>
+    </div>
+
+    <div id="tab-2">    
+        <div class="container">
+            <div class="col-xs-12 well">       
+                <h1><b>Control & Commissiong APP</b></h1>
+            </div>
+             <div class="col-xs-6 col-md-8">
+                <img width='80%' src="http://static1.squarespace.com/static/54db9f6de4b088f32cfb6567/t/5776cbe92994caf5659955a1/1467403251059/iphone">
+            </div>
+            <div class="col-xs-6 col-md-4 jumbotron">
+                <p>Amatis 6LoWireless devices can all be individually addressed and programmed with our easy to use smartphone app.</p>
+                <br>
+                <p>The app allows users to set lighting zones, occupancy timeouts, daylight settings, and program detailed schedules.</p>
+                <br>
+                <p>The app can be used anywhere with an internet connection, providing users with 24/7 oversight of their lighting system usage and behavior.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="tab-3">    
+        <div class="container">
+            <div class="col-xs-12 well">
+                <h1><b>Real-Time Dashboard</b></h1>
+            </div>
+            <div class="col-xs-12 dash">
+                <img src="http://static1.squarespace.com/static/54db9f6de4b088f32cfb6567/t/5775965acd0f6896cdcd2483/1467324006872/Screen+Shot+2016-06-30+at+3.53.57+PM.png">
+            </div>
+            <div class="col-xs-12 jumbotron">
+                <p>Customers recieve reports on energy savings, ROI tracking, and environmental data via our simple user interface. Our powerful graphing engine also provides the ability to customize the dashboard for specific data requirements.
+                The Amatis cloud-based API also allows users to export data for further analysis and third-party system integrations.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="tab-4">
+        <div class="container">
+            <div class="col-xs-12 well">
+                <h1><b>Installation and Wiring</b></h1>
+            </div>
+            <div class="col-xs-4">
+              <h3>Smart Driver Mechanical Dimensions</h3>
+              <ul>
+                <li><span>Overall Length . . . . . . . . . .354mm (14.0 in)</span></li>
+                <li><span>Mounting Length . . . . . . . .344mm (13.6 in)</span></li>
+                <li><span>Height (LV end) . . . . . . . . . 28mm (1.1 in)</span></li>
+                <li><span>Height (HV end) . . . . . . . . 39mm (1.6 in)</span></li>
+                <li><span>Heigth (no endcaps) . . . . . 28mm (1.1in)</span></li>
+                <li><span>Width . . . . . . . . . . . . . . . . 35mm (1.4 in)</span></li>
+
+            </div>
+            <div class="col-xs-8">
+                <img src="http://static1.squarespace.com/static/54db9f6de4b088f32cfb6567/t/57758bfe414fb5cf16623e11/1467321342999/Screen+Shot+2016-06-30+at+3.14.34+PM.png">
+            </div>
+
+            <div class="col-xs-12">
+               
+                <br>
+                <img src="http://static1.squarespace.com/static/54db9f6de4b088f32cfb6567/t/5772e1cae58c625efc547760/1467146699003/wiring+diagram.png">
+            </div>
+
+        </div>
+    </div>
+
+    <div id="tab-5">
+        <div class="container">
+            <div class="col-xs-12 well">
+                <h1><b>Photometric Information</b></h1>
+            </div>
+
+            <div class="col-xs-12 photom">
+                <img width="70%" src="http://static1.squarespace.com/static/54db9f6de4b088f32cfb6567/t/5776c44dbebafb936c03f5d8/1467401293594/Screen+Shot+2016-07-01+at+1.25.16+PM.png">
+                <br>
+                <hr>
+            </div>
+
+        </div>
+    </div>
+    <div id='tab-6'>
+        <div class="container">
+            <div class="col-xs-12 well">
+                <h1><b>Color Comparison</b></h1>
+            </div>
+            <div class="col-xs-12 jumbotron">
+                
+                <br>
+                <p>Amatis high CRI lamps offer superior light quality compared to other LEDs, without compromising energy efficiency. Our greater than 94 CRI rating is a leader in the lighting industry, offering significant improvement over fluorescent lamps.</p>
+                <br>
+                <p>Amatis high CRI lamps are specifically designed to produce a more complete light spectrum and higher "warm light" values - as shown here in a side-by-side comparison. By creating more comfortable indoor spaces, our high quality LED lamps improve worker productivity, occupant satisfaction, appearance of retail products, and are also known to increase the market value of space for lease.</p>
+            </div>
+            <div class="col-xs-12">
+                <br>
+                <br>
+                <hr>
+            </div>
+          
+            <div class="col-xs-12">
+                <img src="http://static1.squarespace.com/static/54db9f6de4b088f32cfb6567/t/5776a38329687f129c6d527c/1467392920501/t8LightChart">
+                <br>
+                <hr>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+  <script>
+  $(function() {
+    $( "#tabs" ).tabs();
+  });
+
+  $(function(){
+    $("#moarTabs").tabs();
+  });
+
+  </script>

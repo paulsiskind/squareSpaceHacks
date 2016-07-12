@@ -1,0 +1,60 @@
+<div class="col-md-6">
+    <h2>Key Features</h2>
+    <ul>
+        <li>Embedded 6LoWirelessTM communication module</li>
+        <li>Simple wiring for quick installation</li>
+        <li>Excellent Color Rendering (CRI: 94+)</li>
+        <li>High Efficiency (PF >0.95)</li>
+        <li>Individually addressable devices for grouping & zones</li>
+        <li>Lumen package up to 105 lm/W</li>
+        <li>G13 medium bi-pin endcaps on T8 Tubes</li>
+        <li>Plug in motion & light sensor (optional temp & humidity)</li>
+        <li>Easy solution for code compliance</li>
+        <li>Real-time data uploaded to Lighting Dashboard</li>
+        <li>Reports energy savings & tracks return on investment</li>
+    </ul>
+</div>
+
+
+<div class="col-md-6">
+    <h2>Technical Specifications</h2>
+    <ul>
+        <li>Specs based on 2 LED T8 4ft. tubes and 1 Smart Driver</li>
+        <li>Input Voltage: 90-277VAC or 277-350VAC (50-60Hz)</li>
+        <li>Input Current: 0.28A @120V, 0.12A @277V, 0.09A @347V</li>
+        <li>Driver THD: < 20%, Power Factor: > 0.95</li>
+        <li>Light Source CCT: 4000 K ± 300</li>
+        <li>Brightness: 3780 lm ± 200, Beam Angle: 135° ± 3°</li>
+        <li>Life Span: > 50,000 hrs (L70)</li>
+        <li>Sensor Output: Class 2, 24VDC, 30mA max, RJ11 port</li>
+        <li>Working Temp: -10° to 40°C</li>
+    </ul>
+</div>
+
+
+<div class="col-md-6">
+    <h2>Applications</h2>
+    <p>Amatis T8 LED Retrofit Kits are the perfect solution for:</p>
+    <div class="col-md-3">
+        <ul>
+            <li>Office building</li>
+            <li>Grocery stores</li>
+            <li>Parking garages</li>
+        </ul>
+    </div>
+    <div class="col-md-3">
+        <ul>
+            <li>Schools</li>
+            <li>Retails Stores</li>
+            <li>Warehouses</li>
+        </ul> 
+    </div>
+</div>
+
+
+<div class="col-md-6">
+    <h2>Product Summary</h2>
+    <p>Amatis Retrofit Kits with Advanced Wireless Controls offer all the energy savings of a standard LED upgrade and more. Embedded Amatis 6LoWirelessTM controls allow customers and installers to program a turn-key LED lighting system with occupancy timeouts, daylight harvesting, detailed scheduling, and smooth dimming profiles in order to comply with local codes.</p>
+    <br>
+    <p>Amatis sensors and switches are designed for fast installation. Wireless commissioning of devices and lighting zones is quick and simple with the Amatis smartphone app saving valuable time.</p>
+</div>

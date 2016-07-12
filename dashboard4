@@ -1,0 +1,453 @@
+<div id="accordion">
+
+  <h3>1.0 Amatis Energy Dashboard</h3>
+    <div>
+      <br>
+      <p>
+        Data gathered by Amatis devices is transmitted via 6LoWireless™ to AMBR and <a href='https://www.amatisdash.com'>amatisdash.com</a>, where you can analyze energy generation, systems behavior, efficiency, cost savings, carbon savings and more, all from your computer, tablet, or smartphone. Follow the instructions below to register your devices and get started.
+      </p>
+      <br>
+      <hr>
+      <br>
+    </div>
+  <h3>2.0 Registration and Set Up</h3>
+    <div>
+      <br>
+      <div class="col-md-8">
+        <p>Visit <a href="https://www.amatisdash.com">www.amatisdash.com</a><br>
+          Click on “Create a new account” and fill out the required fields<br>
+          Enter your AMBR Device ID (this is also called "Mac Address" or "Serial ID") </p><br>
+          <ul>
+              <li><b>NOTE:</b> The AMBR Device ID is a 6 digit code found on the bottom of your AMBR. Codes include only letters A to F and numbers 0 to 9 (0=zero).</li></ul>
+          <p>Choose <b>"System Owner"</b> or <b>"Installer"</b><p>
+          <ul>
+              <li><b>System Owner</b> (Basic User) – you are gathering data on a single project or system.</li>
+              <li><b>Installer</b>(Advanced User - you are tracking data for multiple projects in stems.</li>
+          </ul>
+        <p>Click the “Register” button and retrieve your confirmation email.</p>
+
+      </div>
+      <div class="col-md-4">
+        <img src="https://static1.squarespace.com/static/54db9f6de4b088f32cfb6567/t/5762d81b29687f92e02a7fa3/1466095643488/Screen+Shot+2016-06-16+at+10.46.12+AM.png">
+        <br>
+      </div>
+      <br>
+      <br>
+      <div class="col-md-12">
+        <br>
+        <img src="http://static1.squarespace.com/static/54db9f6de4b088f32cfb6567/t/576321d02994ca8de6e9f177/1466114513265/successBar.png">
+      </div>
+      <br>
+      <br>
+      <div class="col-md-12">
+
+        <hr>
+        <br>
+        <ul>
+          <li><b>Note:</b> <i> If delayed, be sure to check your inbox's "spam" folder.</i></li>
+        </ul>
+        <p>Follow the link provided in the confirmation email and enter your email and password to login.</p>
+        <p>Fill out your profile information and system configuration.</p> 
+        <p>When this is complete you can access your Amatis Energy Dashboard.</p>
+        <ul>
+          <li><b>Note</b>: Installers - Advanced setup requires that you click "Add New Site" on teh Fleet View pagein order to register multiple locations.</li>
+        </ul>
+
+        <br>
+        <hr>
+        <br>
+      </div>
+
+
+
+
+     
+      <div class="col-md-12">
+        <h4>2.1 Adding Sites and Basic Users</h4>
+      </div>
+      <div class="col-md-12">
+        <p>Once you have registered, you will then be able to create Sites and Basic Users.  A Basic User is a System Owner(one who is gathering data on a single project or sysytem), as an Installer, you will be able to create these accounts for clients.</p>
+        <br>
+        <br>
+        <img src="http://static1.squarespace.com/static/54db9f6de4b088f32cfb6567/t/57684b1ce6f2e199f3406c8b/1466452765053/dashborad99.png">
+        <br>
+        <br>
+        <p>From this page you can see the status of sites, edit them, or delete them. You are also able to access their dashboard by clicking the Site's Name (above this is in the 3rd column: "Example House").
+        <br>
+        <h5><b>Statuses</b></h5>
+        
+        <br>
+        <p>The status column will give you a quick overview of how your sites are doing.</p>
+        <ul>
+          <li>Green: no errors.</li>
+          <li>Yellow: non-critical errors.</li>
+          <li>Red: critical error- device is not reporting or is of range.</li>
+          <li>Black: AMBR is not talking to the cloud.</li>
+            <ul>
+              <li><b>Note</b>: You can also access the node statuses via CONFIGURATION(section 6.0).</li>
+            </ul>
+        </ul>
+        <h5><b>ERRORS</b></h5>
+        <p>Statuses will show up when you get to the dashboard page. The "x" in the top right wil close- they wil reappear if you clear your cache, or if they are still issues in 2 weeks.</p>
+        <br>
+        <img src="http://static1.squarespace.com/static/54db9f6de4b088f32cfb6567/t/57684e241b631bb40e9b2ffe/1466453540596/Error+Messge.png">
+        <br>
+        <br>
+        <hr>
+        <br>
+      </div>
+      <div class="col-md-12">
+        <h4>2.2 Editing Your Profile</h4>
+      </div>
+      <div class="col-md-12">
+        <p>To edit your profile, select “My Profile” from the Main Menu. From this page you will be able to edit:</p>
+        <ul>
+          <li>Personal and contact information</li>
+          <li>Time zone</li>
+          <li>Switch units of measurement (kWh or BTU, and Celsius or Fahrenheit)</li>
+          <li>Email preferences</li>
+      
+        <br>
+          <ul>
+            <li><b>Note:</b> To add a company <b>logo</b> to a site, see section 6.0 CONFIGURATION.</li>
+          </ul>
+        </ul>
+
+        <br>
+        <br>
+        <img src="http://static1.squarespace.com/static/54db9f6de4b088f32cfb6567/t/5762e0a2e6f2e191d560c2d7/1466097827716/dashboard2.png">
+        <br>
+       
+       
+        <br>
+        <hr>
+        <br>
+      </div>
+  
+      <div class="col-md-12">
+        <h4>2.3 Changing Your Password</h4>
+      </div>
+    
+      <ol>
+        <li>Select "My Profile" from the Main Menu.</li>
+        <li>Click on the "Change Password" tab.</li>
+        <li>Enter your new Password in each text box.</li>
+      </ol>
+      <br>
+      <hr>
+      <br>
+    </div>
+  <h3>3.0 Main Menu</h3>
+    <div>
+      <br>
+      <p>
+        Navigate the Dashboard by using the dropdown Menu in the top right-hand corner.
+      </p>
+      <br>
+      <img src="http://static1.squarespace.com/static/54db9f6de4b088f32cfb6567/t/5762e32ac534a57f8bb358e6/1466098475099/dashboard3.png">
+      <br>
+      <br>
+      <br>
+      <ul>
+        <li>Dashboard - Homepage for your building site or energy system.</li>
+        <li>Schematics - Interactive building designs (Amatis Pro Dash only).</li>
+        <li>Graphing - Create and save custom bar, line, and pie graphs.</li>
+        <li>Configuration – Adjust site information and settings (Installers only).</li>
+        <li>My Profile – Administrative functions such as reset password.</li>
+        <li>Logout – Securely logout of Amatis Dash.</li>
+      </ul>
+      <br>
+      <hr>
+      <br>
+    </div>
+  <h3>4.0 Dashboard Windows</h3>
+    <div>
+      <br>
+      <p>
+        There are 4 customizable windows (or widgets) on the Energy Dashboard. Click the gear icon to customize the dashboard.
+
+      </p>
+      <br>
+      <br>
+
+    
+      <div class="col-md-12">
+        <h4>4.1 Widgets</h4>
+      </div>
+      <div class="col-md-6">
+        <p>
+          On each of the 4 windows you can select one of the following:
+        </p>
+        <ul>
+          <li>Energy Graph - view energy generation specific to your system.</li>
+          <li>Energy Statistics – view energy stats for specified timeframes.</li>
+          <li>Temperature Graph– view supply and return temps for a Joule install.</li>
+          <li>Weather – view locations-based weather forecasts.</li>
+          <li>Solar Fraction – view solar vs. grid provided energy (for solar only).</li>
+          <li>Controls – system controls settings (Amatis Pro Dash Only).</li>
+          <li>Custom Graphs – view saved custom energy graphs (See 1.2.3).</li>
+          <li>Different timeframes can be selected for each window.</li>
+        </ul>
+      </div>
+      <br>
+      <br>
+      <div class="col-md-6">
+        <img src="http://static1.squarespace.com/static/54db9f6de4b088f32cfb6567/t/5762f7852994ca8de6e85d5b/1466103685922/dashboard4.png">
+      </div>
+        <br>
+        <br>
+        <hr>
+        <br>
+      <div class="col-md-12">
+       <h4>4.2 Graphs</h4>
+      </div>
+      <div class="col-md-12">
+     
+      <p>
+        SECTION 5.0 goes over graphing in detail. You can create custom graphs using the Main Menu, a detailed walkthrough can be found below, in 5.1 CREATING CUSTOM GRAPHS.
+      </p>
+      <br>
+      <hr>
+      <br>
+    </div>
+    </div>
+    <h3>5.0 Graphing</h3>
+    <div>
+      <br>
+      <div class="col-md-12">
+        <iframe src="https://player.vimeo.com/video/131810149" width="100%" height="500px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+      <div class="col-md-12">
+        <br>
+        <hr>
+        <br>
+      </div>
+      <div class="col-md-12">
+        <h4>5.1 Creating Custom Graphs</h4>
+      </div>
+      <div class="col-md-12">
+        <ol>
+          <li>Select “Graphing” from the Main Menu (top right).</li>
+          <li>To sort data by device, choose a device from the dropdown menu in ALL DATA POINTS. You can also search for data points by name.</li>
+          <li>As you click data points in the ALL DATA POINTS window they will move into the SELECTED DATA POINTS window on the right.
+          </li>
+          <li>To deselect a data point, simply click it in the SELECTED DATA POINTS window and it will be sent back to the ALL DATA POINTS window.
+          </li>
+          <li>Change the timeframe for this graph by clicking the drop down menu in SELECTED DATA POINTS.</li>
+          <li>Choose the type of graph by selecting Line Graph, Pie Graph, or Bar Graph.</li>
+          <li>Clcik "Graph It".</li>
+          <li>You can export the data by clicking the “CSV” button.</li>
+          <li>To view your other custom graphs select from the dropdown that appears in the top right of the graph.</li>
+          <li>To delete a graph, click "Edit" and look for the small black "x" in the top left of the graph.</li>
+        </ol>
+      <br>
+      <br>
+     
+      <iframe src="https://player.vimeo.com/video/131810149" width="100%" height="500px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+       <div class="col-md-12">
+        <br>
+        <hr>
+        <br>
+      </div>
+      <div class="col-md-12">
+        <h4>5.2 Saving Custom Graphs</h4>
+      </div>
+ 
+      <br>
+      <div class="col-md-12">
+        <ol>
+          <li>Create a custom graph (See 5.1).</li>
+          <li>Click the “Save” button top right.</li>
+          <li>Enter a name for your graph.</li>
+          <li>Click “Edit” to change name and data points.</li>
+          <li>Saved graphs will appear in the dropdown menu.</li>
+
+
+
+        </ol>
+      </div>
+      <div class="col-md-12">
+        <br>
+        <hr>
+        <br>
+      </div>
+      <div class="col-md-12">
+        <h4>5.3 Adding Custom Graphs to the Dashboard</h4>
+      </div>
+      <div class="col-md-12">
+        <ol>
+          <li>Choose “Dashboard” from the Main Menu.</li>
+          <li>Click the gear icon on a Dashboard window.</li>
+          <li>Choose “Custom Charts”.</li>
+          <li>Saved graphs will appear in the dropdown menu.</li>
+          <li>Choose a custom graph to appear in the window.</li>
+        </ol>
+        <br>
+        <br>
+        <iframe src="https://player.vimeo.com/video/131812002" width="100%" height="500px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      
+      </div>
+      <div class="col-md-12">
+        <br>
+        <hr>
+        <br>
+      </div>
+      
+      <div class="col-md-12">
+        <h4>5.4 Zooming on Graph Data</h4>
+      </div>
+      <div class="col-md-12">
+        <ol>
+          <li>You can click the graph to enlarge. To zoom into the data on a (large or small) graph, simply click and hold where you want your graph to begin and drag the cursor to where you want the graph to end.
+          </li>
+          <li>To zoom out, click the “Reset Zoom” button.</li>
+          <li>You may also change the timeframe be selecting a period of time from the dropdown menu left of the gear icon.</li>
+        </ol>
+        <br>
+        <br>
+        <iframe src="https://player.vimeo.com/video/131813482" width="100%" height="500px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <br><br>
+      </div>
+      <div class="col-md-12">
+        <br>
+        <hr>
+        <br>
+      </div>
+      
+    </div>
+    <h3>6.0 Configuration</h3>
+    <div>
+      <br>
+      <div class="col-md-12">
+        <h4>6.1 Primary System Information</h4>
+      </div>
+      <div class="col-md-12">
+      <p>Here you can access and edit important information filed such as:</p>
+      <ul>
+        <li>Energy Dashboard Title</li>
+        <li>Program Fleet</li>
+        <li>Installation Type</li>
+        <li>Site Logo</li>
+        <li>Time Zone</li>
+        <li>Email Preferences</li>
+      </ul>
+      <br>
+      <hr>
+      <br>
+      </div>
+      <div class="col-md-12">
+        <h4>6.2 Secondary System Information</h4>
+      </div>
+      <div class="col-md-12">
+      <p>Secondary System Information includes less important information fields such as:</p>
+
+
+      <ul>
+        <li>Installation and Ownership types</li>
+        <li>Date of commissioning</li>
+        <li>Site Address</li>
+        <li>Cost information</li>
+        <li>Motive to install</li>
+        <li>Median household or business income</li>
+        <li>Photo of building or residence</li>
+        <li>Number of occupants</li>
+        <li>Square footage of building</li>
+        <li>Year of building construction</li>
+        <li>Whether there are other on-site renewables</li>
+
+      </ul>
+      <br>
+      <hr>
+      <br>
+      </div>
+      <div class="col-md-12">
+        <h4>6.3 Energy Information</h4>
+      </div>
+      <div class="col-md-12">
+        <p>
+         The fields to edit in Energy Information are:
+        </p>
+        <ul>
+          <li>Hot Water Auxiliary Heating Method</li>
+          <li>Name of Electricity or Gas Utility</li>
+          <li>Carbon Factor of the Utility</li>
+          <li>Effeciency of Water Heater</li>
+        </ul>
+        <br>
+        <hr>
+        <br>
+      </div>
+      <div class="col-md-12">
+        <h4>6.4 System Specifications</h4>
+      </div>
+      <div class="col-md-12">
+        <p>
+           Here you can edit information fields regarding:
+        </p>
+        <ul>
+          <li>Collectors</li>
+          <li>Controllers</li>
+          <li>Solar Tanks</li>
+          <li>Pumps</li>
+          <li>Application Number</li>
+        </ul>
+        <br>
+        <hr>
+        <br>
+    
+      </div>
+      <div class="col-md-12">
+        <h4>6.5 DEVICE TABS</h4>
+      </div>
+
+      <div class="col-md-8">
+        <p>From any device tab (ex. METER, or SOLSTICE, as seen below) you can:</p>
+        <ul>
+          <li>Get Live Data.</li>
+          <li>Delete Device (Note: this cannot be undone).</li>
+          <li>Note that the device is a sub-meter.</li>
+          <li>Utilize the (Energy Bill) Calculator, shown below.</li>
+
+        </ul>
+       
+      </div>
+      <div class="col-md-4">
+        <img src="http://static1.squarespace.com/static/54db9f6de4b088f32cfb6567/t/57630d4eb3db2b7e1eab40e4/1466109262959/button.png">
+      </div>
+      <div class="col-md-12">
+        <br>
+        <br>
+        <hr>
+        <br>
+      </div>
+      <div class="col-md-12">
+        <img src="http://static1.squarespace.com/static/54db9f6de4b088f32cfb6567/t/57630e18e3df28879d17fcd3/1466109464706/energyCalc.png">
+      <br><br>
+      <hr>
+      <br>
+      </div>
+      <div class="col-md-12">
+        <h4>6.6 Data Sets(within Device Tabs)</h4>
+      </div>
+      <div class="col-md-12">
+        <p>
+          Select which device's data you would like to show up when you are using the Custom Graphing tool.
+        </p>
+        <ol>
+          <li>Choose "Configuration" from the Main Menu.</li>
+          <li>Click the specific device tab you wish to edit.</li>
+          <li>Select and deselect data points to "Display in Graphing?" - the selected points will allow for quick custom graphing.</li>
+        </ol>
+        <br>
+        <iframe src="https://player.vimeo.com/video/132349643" width="100%" height="500px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+      <div class="col-md-12">
+        <br>
+        <br>
+        <hr>
+        <br>
+      </div>
+
+    </div>
+</div>

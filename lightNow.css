@@ -1,0 +1,252 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/slate/bootstrap.min.css">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+ <script>
+   $(document).ready(function () {
+       $(window).scroll(function () {
+           if ($(this).scrollTop() > 100) {
+               $('.scrollup').fadeIn(3000);
+           } else {
+               $('.scrollup').fadeOut();
+           }
+       });
+       $('.scrollup').click(function () {
+           $("html, body").animate({
+               scrollTop: 0
+           }, 600);
+           return false;
+       });
+       $("a").click(function(evn){
+            console.log("tacos");
+            evn.preventDefault();
+            $('html,body').scrollTo(this.hash, this.hash); 
+       });
+   });
+ </script>
+
+<style>
+ html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+  #page-title{
+      display:none;
+  }
+  .headerLight{
+      margin-bottom: 30px;
+  }
+
+  #top{ 
+      background-color:rgb(110,114,122);
+      height:500px;
+      padding-top:100px;
+      margin-left: -1600px;
+      margin-right: -1600px;
+  }
+  #top h1, #top h2 {
+      color:white;
+      text-align:center;
+  }
+  #top-mid{
+      text-align:center;
+      height: 800px;
+  }
+   
+  #ambr{
+      background-color:rgb(195,195,195);
+      height:700px;
+      padding-top:100px;
+      margin-left: -1600px;
+      margin-right: -1600px;
+  }
+  #ambr h1, #ambr h2, #ambr h4{
+      text-align:center;
+  }
+  #filler1{
+      height:400px;
+      z-index:999;
+      background:url('http://static1.squarespace.com/static/54db9f6de4b088f32cfb6567/t/577d401446c3c420f49c7451/1467826198415/Screen+Shot+2016-07-06+at+11.28.56+AM.png');
+      background-attachment: fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      margin-left: -1600px;
+      margin-right: -1600px;
+  }
+  #filler2{
+      height:400px;
+      z-index:999;
+      background:url('http://static1.squarespace.com/static/54db9f6de4b088f32cfb6567/t/577d401446c3c420f49c7451/1467826198415/Screen+Shot+2016-07-06+at+11.28.56+AM.png');
+      background-attachment: fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      margin-left: -1600px;
+      margin-right: -1600px;
+  }
+  #filler3{
+      height:400px;
+      z-index:999;
+      background:url('http://static1.squarespace.com/static/54db9f6de4b088f32cfb6567/t/577d401446c3c420f49c7451/1467826198415/Screen+Shot+2016-07-06+at+11.28.56+AM.png');
+      background-attachment: fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      margin-left: -1600px;
+      margin-right: -1600px;
+  }
+  #filler4{
+      height:400px;
+      z-index:999;
+      background:url('http://static1.squarespace.com/static/54db9f6de4b088f32cfb6567/t/577d401446c3c420f49c7451/1467826198415/Screen+Shot+2016-07-06+at+11.28.56+AM.png');
+      background-attachment: fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      margin-left: -1600px;
+      margin-right: -1600px;
+  }
+  .filler{
+      background:url('http://static1.squarespace.com/static/54db9f6de4b088f32cfb6567/t/577d401446c3c420f49c7451/1467826198415/Screen+Shot+2016-07-06+at+11.28.56+AM.png');
+      background-attachment: fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;;
+      height: 100%;
+      width: 100%;
+      right:0;
+      left:0;
+  }  
+  #ac-dim{
+      background-color:rgb(67,77,70);
+      height:700px;
+      padding-top:100px;
+      margin-left: -1600px;
+      margin-right: -1600px;
+  }
+  #ac-dim h1, #ac-dim h2, #ac-dim h4{
+    text-align:center;
+  }
+   .cert img{
+      width:19.5%;
+      display:inline;
+      padding:15px;
+      margin-top:100px;
+  }
+  #certifications{
+      text-align:center;
+      background-color:rgb(209,209,209);
+      height:700px;
+      padding-top:100px;
+      margin-left: -1600px;
+      margin-right: -1600px;
+  }
+  #dc-dim{
+      background-color:rgb(150,142,142);
+      height:700px;
+      padding-top:100px;
+      margin-left: -1600px;
+      margin-right: -1600px;
+  }
+  #dc-dim h1, #dc-dim h2, #dc-dim h4{
+      text-align:center;
+  }
+  #switch{
+      background-color:#585F63;
+      height:700px;
+      padding-top:100px;
+      margin-left: -1600px;
+      margin-right: -1600px;
+
+  }
+  #switch h1, #switch h2, #switch h4{
+    text-align: center;
+  }
+  #sensor-ml{
+      background-color:#5380A3;
+      height:700px;
+      padding-top:100px;
+      margin-left: -1600px;
+      margin-right: -1600px;
+  }
+  #sensor-ml h1, #sensor-ml h2, #sensor-ml h4{
+    text-align: center;
+  }
+  #mlth2{
+      background-color:#6592AB;
+      height:700px;
+      padding-top:100px;
+      margin-left: -1600px;
+      margin-right: -1600px;
+  }
+  #mlth2 h1, #mlth2 h2, #mlth2 h4{
+    text-align: center;
+  }
+  #roi{
+    background-color:ivory;
+      height:700px;
+      padding-top:100px;
+      margin-left: -1600px;
+      margin-right: -1600px;
+
+  }
+  #headerRoi{
+    text-align: center;
+    margin-bottom: 30px;
+
+  }
+  .btc{
+    font-size: 40px;
+    display: block;
+    margin: 0 auto;
+  }
+  .globe, .battery{
+    font-size:25px;
+    display: block;
+    margin: 0 auto;
+  }
+  .globe{
+    padding-bottom: 50px;
+  }
+  #roi .well{
+    height: 300px;
+  }
+  #smart{
+      background-color:#585253;
+      height:700px;
+      padding-top:100px;
+      margin-left: -1600px;
+      margin-right: -1600px;
+  }
+  #smart h1, #smart h2, #smart h4{
+    text-align: center;
+  }
+  #over{
+      background-color:#464A4D;
+      height:1500px;
+      padding-top:100px;
+      margin-left: -1600px;
+      margin-right: -1600px;
+  }
+  #over h1, #over .btn, #over h3{
+    text-align: center;
+  }
+    
+  #over jumbotron{
+    margin:3px;
+  }
+  #over h1{
+    color:white;
+  }
+  #ambrOver{
+    margin-right:3px;
+  }
+</style>
