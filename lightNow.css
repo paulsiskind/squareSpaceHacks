@@ -19,7 +19,7 @@
            }, 600);
            return false;
        });
-       $("a").click(function(evn){
+       $(".well a, .jumbotron a").click(function(evn){
             console.log("tacos");
             evn.preventDefault();
             $('html,body').scrollTo(this.hash, this.hash); 
@@ -36,7 +36,7 @@
       display:none;
   }
   .headerLight{
-      margin-bottom: 30px;
+      margin-bottom: 40px;
   }
 
   #top{ 
@@ -57,13 +57,16 @@
    
   #ambr{
       background-color:rgb(195,195,195);
-      height:700px;
+      height:800px;
       padding-top:100px;
       margin-left: -1600px;
       margin-right: -1600px;
   }
   #ambr h1, #ambr h2, #ambr h4{
       text-align:center;
+  }
+  .imgClass>img{
+    padding-bottom: 30px;
   }
   #filler1{
       height:400px;
@@ -161,10 +164,11 @@
   }
   #switch{
       background-color:#585F63;
-      height:700px;
+      height:800px;
       padding-top:100px;
       margin-left: -1600px;
       margin-right: -1600px;
+      
 
   }
   #switch h1, #switch h2, #switch h4{
@@ -172,17 +176,18 @@
   }
   #sensor-ml{
       background-color:#5380A3;
-      height:700px;
+      height:900px;
       padding-top:100px;
       margin-left: -1600px;
       margin-right: -1600px;
+    
   }
   #sensor-ml h1, #sensor-ml h2, #sensor-ml h4{
     text-align: center;
   }
   #mlth2{
       background-color:#6592AB;
-      height:700px;
+      height:850px;
       padding-top:100px;
       margin-left: -1600px;
       margin-right: -1600px;
@@ -248,5 +253,41 @@
   }
   #ambrOver{
     margin-right:3px;
+  }
+  #productTop{
+    margin-bottom: 100px;
+    text-align: center;
+  }
+  #productTop .jumbotron{
+    height:500px;
+    
+  }
+  #productTop img{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 200px;
+  }
+  #productTop .btn{
+    position: absolute;
+    bottom: 20px;
+    right:20px;
+  }
+  #productBottom p{
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  #productBottom .well{
+    height: 500px;
+  }
+  #productBottom img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 200px;
+  }
+  #productBottom .btn{
+    position: absolute;
+    bottom: 20px;
+    right:20px;
   }
 </style>
