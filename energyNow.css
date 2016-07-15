@@ -1,0 +1,243 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/slate/bootstrap.min.css">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+ <script>
+   $(document).ready(function () {
+       $(window).scroll(function () {
+           if ($(this).scrollTop() > 100) {
+               $('.scrollup').fadeIn(3000);
+           } else {
+               $('.scrollup').fadeOut();
+           }
+       });
+       $('.scrollup').click(function () {
+           $("html, body").animate({
+               scrollTop: 0
+           }, 600);
+           return false;
+       });
+       $(".well a, .jumbotron a").click(function(evn){
+            console.log("tacos");
+            evn.preventDefault();
+            $('html,body').scrollTo(this.hash, this.hash); 
+       });
+   });
+ </script>
+
+<style>
+ html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+  #page-title{
+      display:none;
+  }
+  .headerLight{
+      margin-bottom: 40px;
+  }
+
+  #top{ 
+      background-color:#404040;
+      height:500px;
+      padding-top:100px;
+      margin-left: -1600px;
+      margin-right: -1600px;
+  }
+  #top h1, #top h2 {
+      color:white;
+      text-align:center;
+  }
+  #top-mid{
+      text-align:center;
+      height: 800px;
+  }
+  #top-mid h1{
+    margin-top: 100px;
+  }
+   
+  #ambr{
+      background-color:#555555;
+      height:800px;
+      padding-top:100px;
+      margin-left: -1600px;
+      margin-right: -1600px;
+  }
+  #ambr h1, #ambr h2, #ambr h4{
+      text-align:center;
+  }
+  .imgClass>img{
+    padding-bottom: 30px;
+  }
+  #filler1{
+      height:400px;
+      z-index:999;
+      background:url('http://static1.squarespace.com/static/54db9f6de4b088f32cfb6567/t/577d401446c3c420f49c7451/1467826198415/Screen+Shot+2016-07-06+at+11.28.56+AM.png');
+      background-attachment: fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      margin-left: -1600px;
+      margin-right: -1600px;
+  }
+  #filler2{
+      height:400px;
+      z-index:999;
+      background:url('http://static1.squarespace.com/static/54db9f6de4b088f32cfb6567/t/577d401446c3c420f49c7451/1467826198415/Screen+Shot+2016-07-06+at+11.28.56+AM.png');
+      background-attachment: fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      margin-left: -1600px;
+      margin-right: -1600px;
+  }
+  #filler3{
+      height:400px;
+      z-index:999;
+      background:url('http://static1.squarespace.com/static/54db9f6de4b088f32cfb6567/t/577d401446c3c420f49c7451/1467826198415/Screen+Shot+2016-07-06+at+11.28.56+AM.png');
+      background-attachment: fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      margin-left: -1600px;
+      margin-right: -1600px;
+  }
+  #filler4{
+      height:400px;
+      z-index:999;
+      background:url('http://static1.squarespace.com/static/54db9f6de4b088f32cfb6567/t/577d401446c3c420f49c7451/1467826198415/Screen+Shot+2016-07-06+at+11.28.56+AM.png');
+      background-attachment: fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      margin-left: -1600px;
+      margin-right: -1600px;
+  }
+  .filler{
+      background:url('http://static1.squarespace.com/static/54db9f6de4b088f32cfb6567/t/577d401446c3c420f49c7451/1467826198415/Screen+Shot+2016-07-06+at+11.28.56+AM.png');
+      background-attachment: fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;;
+      height: 100%;
+      width: 100%;
+      right:0;
+      left:0;
+  }  
+  #joule{
+      background-color:#6A6A6A;
+      height:700px;
+      padding-top:100px;
+      margin-left: -1600px;
+      margin-right: -1600px;
+  }
+  #joule h1, #joule h2, #joule h4{
+    text-align:center;
+  }
+   .cert img{
+      width:19.5%;
+      display:inline;
+      padding:15px;
+      margin-top:100px;
+  }
+  #certifications{
+      text-align:center;
+      background-color:rgb(209,209,209);
+      height:700px;
+      padding-top:100px;
+      margin-left: -1600px;
+      margin-right: -1600px;
+  }
+  #fossil{
+      background-color:#818181;
+      height:700px;
+      padding-top:100px;
+      margin-left: -1600px;
+      margin-right: -1600px;
+  }
+  #fossil h1, #fossil h2, #fossil h4{
+      text-align:center;
+  }
+  #meter{
+      background-color:#979797;
+      height:800px;
+      padding-top:100px;
+      margin-left: -1600px;
+      margin-right: -1600px;
+      
+
+  }
+  #meter h1, #meter h2, #meter h4{
+    text-align: center;
+  }
+ 
+  #roi{
+    background-color:ivory;
+      height:700px;
+      padding-top:100px;
+      margin-left: -1600px;
+      margin-right: -1600px;
+
+  }
+  #headerRoi{
+    text-align: center;
+    margin-bottom: 30px;
+
+  }
+  .btc{
+    font-size: 40px;
+    display: block;
+    margin: 0 auto;
+  }
+  .globe, .battery{
+    font-size:25px;
+    display: block;
+    margin: 0 auto;
+  }
+  .globe{
+    padding-bottom: 50px;
+  }
+  #roi .well{
+    height: 300px;
+  }
+
+  #over{
+      background-color:#464A4D;
+      height:800px;
+      padding-top:100px;
+      margin-left: -1600px;
+      margin-right: -1600px;
+  }
+  #over h1, #over .btn, #over h3{
+    text-align: center;
+  }
+  #over h1{
+    color:white;
+  }
+  #productTop{
+    margin-bottom: 100px;
+    text-align: center;
+  }
+  #productTop .jumbotron{
+    height:500px;
+    
+  }
+  #productTop img{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 200px;
+  }
+  #productTop .btn{
+    position: absolute;
+    bottom: 20px;
+    right:20px;
+  }
+
+</style>
