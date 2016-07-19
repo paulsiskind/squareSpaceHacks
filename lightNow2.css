@@ -3,10 +3,10 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
 <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
  <script>
-   $(document).ready(function () {
+    $(document).ready(function () {
         $(window).scroll(function () {
             if ($(this).scrollTop() > 100) {
                 $('.scrollup').fadeIn(3000);
@@ -19,10 +19,10 @@
             }
         });
         $('.scrollup').click(function () {
-           $("html, body").animate({
-               scrollTop: 0
-           }, 600);
-           return false;
+            $("html, body").animate({
+                scrollTop: 0
+            }, 600);
+            return false;
         });
         $(".well>.btn, .jumbotron>.btn").click(function(evn){
             console.log("tacos");
@@ -30,10 +30,9 @@
             $('html,body').scrollTo(this.hash, this.hash); 
         });
         $(".modalImg").hover(function(){
-           $(this).css('cursor', 'pointer');          
-        });
-      
-   });
+            $(this).css('cursor', 'pointer');          
+         });
+    });
  </script>
 
 <style>
@@ -49,9 +48,20 @@
   }
 
   #top{ 
-      background-color:#404040;
+    /*  background-color:rgb(110,114,122);
       height:500px;
       padding-top:100px;
+      margin-left: -1600px;
+      margin-right: -1600px;*/
+      padding-top:100px;
+      height:500px;
+      z-index:999;
+      background:url('https://cdn-co.milespartnership.com/sites/default/master/files/MaroonBells.HeatherRousseau%5B1%5D_1.jpg');
+      background-attachment: fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
       margin-left: -1600px;
       margin-right: -1600px;
   }
@@ -63,14 +73,16 @@
       text-align:center;
       height: 800px;
   }
-  #top-mid h1{
-    margin-top: 100px;
-  }
    
   #ambr{
-      background-color:#555555;
       height:800px;
-      padding-top:100px;
+      z-index:999;
+      background:url('https://cdn-co.milespartnership.com/sites/default/master/files/MaroonBells.HeatherRousseau%5B1%5D_1.jpg');
+      background-attachment: fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
       margin-left: -1600px;
       margin-right: -1600px;
   }
@@ -81,14 +93,9 @@
     padding-bottom: 30px;
   }
   #filler1{
-      height:400px;
-      z-index:999;
-      background:url('http://static1.squarespace.com/static/54db9f6de4b088f32cfb6567/t/577d401446c3c420f49c7451/1467826198415/Screen+Shot+2016-07-06+at+11.28.56+AM.png');
-      background-attachment: fixed;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
+      background-color:rgb(110,114,122);
+      height:500px;
+      padding-top:100px;
       margin-left: -1600px;
       margin-right: -1600px;
   }
@@ -129,7 +136,7 @@
       margin-right: -1600px;
   }
   .filler{
-      background:url('http://static1.squarespace.com/static/54db9f6de4b088f32cfb6567/t/577d401446c3c420f49c7451/1467826198415/Screen+Shot+2016-07-06+at+11.28.56+AM.png');
+  /*    background:url('http://static1.squarespace.com/static/54db9f6de4b088f32cfb6567/t/577d401446c3c420f49c7451/1467826198415/Screen+Shot+2016-07-06+at+11.28.56+AM.png');
       background-attachment: fixed;
       -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -138,16 +145,16 @@
       height: 100%;
       width: 100%;
       right:0;
-      left:0;
+      left:0;*/
   }  
-  #joule{
-      background-color:#6A6A6A;
+  #ac-dim{
+      background-color:rgb(67,77,70);
       height:700px;
       padding-top:100px;
       margin-left: -1600px;
       margin-right: -1600px;
   }
-  #joule h1, #joule h2, #joule h4{
+  #ac-dim h1, #ac-dim h2, #ac-dim h4{
     text-align:center;
   }
    .cert img{
@@ -164,14 +171,14 @@
       margin-left: -1600px;
       margin-right: -1600px;
   }
-  #fossil{
-      background-color:#818181;
+  #dc-dim{
+      background-color:rgb(150,142,142);
       height:700px;
       padding-top:100px;
       margin-left: -1600px;
       margin-right: -1600px;
   }
-  #fossil h1, #fossil h2, #fossil h4{
+  #dc-dim h1, #dc-dim h2, #dc-dim h4{
       text-align:center;
   }
   #screenShots{
@@ -185,8 +192,8 @@
     text-align: center;
     margin-bottom: 100px;
   }
-  #meter{
-      background-color:#979797;
+  #switch{
+      background-color:#585F63;
       height:800px;
       padding-top:100px;
       margin-left: -1600px;
@@ -194,10 +201,30 @@
       
 
   }
-  #meter h1, #meter h2, #meter h4{
+  #switch h1, #switch h2, #switch h4{
     text-align: center;
   }
- 
+  #sensor-ml{
+      background-color:#5380A3;
+      height:900px;
+      padding-top:100px;
+      margin-left: -1600px;
+      margin-right: -1600px;
+    
+  }
+  #sensor-ml h1, #sensor-ml h2, #sensor-ml h4{
+    text-align: center;
+  }
+  #mlth2{
+      background-color:#6592AB;
+      height:850px;
+      padding-top:100px;
+      margin-left: -1600px;
+      margin-right: -1600px;
+  }
+  #mlth2 h1, #mlth2 h2, #mlth2 h4{
+    text-align: center;
+  }
   #roi{
     background-color:ivory;
       height:700px;
@@ -227,10 +254,19 @@
   #roi .well{
     height: 300px;
   }
-
+  #smart{
+      background-color:#585253;
+      height:700px;
+      padding-top:100px;
+      margin-left: -1600px;
+      margin-right: -1600px;
+  }
+  #smart h1, #smart h2, #smart h4{
+    text-align: center;
+  }
   #over{
       background-color:#464A4D;
-      height:800px;
+      height:1500px;
       padding-top:100px;
       margin-left: -1600px;
       margin-right: -1600px;
@@ -238,8 +274,15 @@
   #over h1, #over .btn, #over h3{
     text-align: center;
   }
+    
+  #over jumbotron{
+    margin:3px;
+  }
   #over h1{
     color:white;
+  }
+  #ambrOver{
+    margin-right:3px;
   }
   #productTop{
     margin-bottom: 100px;
@@ -259,5 +302,22 @@
     bottom: 20px;
     right:20px;
   }
-
+  #productBottom p{
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  #productBottom .well{
+    height: 500px;
+  }
+  #productBottom img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 200px;
+  }
+  #productBottom .btn{
+    position: absolute;
+    bottom: 20px;
+    right:20px;
+  }
 </style>

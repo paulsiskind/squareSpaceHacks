@@ -4,27 +4,35 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
 <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
  <script>
-   $(document).ready(function () {
-       $(window).scroll(function () {
-           if ($(this).scrollTop() > 100) {
-               $('.scrollup').fadeIn(3000);
-           } else {
-               $('.scrollup').fadeOut();
-           }
-       });
-       $('.scrollup').click(function () {
-           $("html, body").animate({
-               scrollTop: 0
-           }, 600);
-           return false;
-       });
-       $(".well a, .jumbotron a").click(function(evn){
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+                $('.scrollup').fadeIn(3000);
+                $("#topHeader").fadeOut(2000);
+            }else if($(this).scrollTop()<99){
+              $("#topHeader").fadeIn(1500);
+            }
+            else {
+                $('.scrollup').fadeOut();
+            }
+        });
+        $('.scrollup').click(function () {
+            $("html, body").animate({
+                scrollTop: 0
+            }, 600);
+            return false;
+        });
+        $(".well>.btn, .jumbotron>.btn").click(function(evn){
             console.log("tacos");
             evn.preventDefault();
             $('html,body').scrollTo(this.hash, this.hash); 
-       });
-   });
+        });
+        $(".modalImg").hover(function(){
+            $(this).css('cursor', 'pointer');          
+         });
+    });
  </script>
 
 <style>
@@ -45,6 +53,16 @@
       padding-top:100px;
       margin-left: -1600px;
       margin-right: -1600px;
+      /*height:500px;
+      z-index:999;
+      background:url('https://cdn-co.milespartnership.com/sites/default/master/files/MaroonBells.HeatherRousseau%5B1%5D_1.jpg');
+      background-attachment: fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      margin-left: -1600px;
+      margin-right: -1600px;*/
   }
   #top h1, #top h2 {
       color:white;
@@ -161,6 +179,17 @@
   }
   #dc-dim h1, #dc-dim h2, #dc-dim h4{
       text-align:center;
+  }
+  #screenShots{
+      background-color:#585253;
+      height:800px;
+      padding-top:100px;
+      margin-left: -1600px;
+      margin-right: -1600px;
+  }
+  #screenShotsHeader{
+    text-align: center;
+    margin-bottom: 100px;
   }
   #switch{
       background-color:#585F63;
