@@ -8,10 +8,10 @@
  <script>
     $(document).ready(function () {
         $(window).scroll(function () {
-            if ($(this).scrollTop() > 100) {
+            if ($(this).scrollTop() > 200) {
                 $('.scrollup').fadeIn(3000);
                 $("#topHeader").fadeOut(2000);
-            }else if($(this).scrollTop()<99){
+            }else if($(this).scrollTop()<200){
               $("#topHeader").fadeIn(1500);
             }
             else {
