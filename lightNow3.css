@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/slate/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/paper/bootstrap.min.css">
 <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
@@ -49,26 +49,12 @@
     }
 
     #top{ 
-      /*  background-color:rgb(110,114,122);
+        background-color:rgb(14,95,166);
         height:500px;
         padding-top:100px;
-        margin-left: -1600px;
-        margin-right: -1600px;*/
-        padding-top:100px;
-        height:500px;
-        z-index:999;
-        background:url('https://cdn-co.milespartnership.com/sites/default/master/files/MaroonBells.HeatherRousseau%5B1%5D_1.jpg');
-        background-attachment: fixed;
-        -webkit-background-size: 100%; 
-         -moz-background-size: 100%; 
-        -o-background-size: 100%; 
-        background-size: 100%; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
         margin-left: -1600px;
         margin-right: -1600px;
+   
     }
     #top h2, #top h3 {
         color:white;
@@ -98,12 +84,7 @@
     #ambr{
         height:800px;
         z-index:999;
-        background:url('https://cdn-co.milespartnership.com/sites/default/master/files/CO_PhotoProject2007_0007_0_0.jpg');
-        background-attachment: fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+        background-color: white;
         margin-left: -1600px;
         margin-right: -1600px;
     }
@@ -158,29 +139,12 @@
         background-size: cover;
         margin-left: -1600px;
         margin-right: -1600px;
-    }
-    .filler{
-    /*    background:url('http://static1.squarespace.com/static/54db9f6de4b088f32cfb6567/t/577d401446c3c420f49c7451/1467826198415/Screen+Shot+2016-07-06+at+11.28.56+AM.png');
-        background-attachment: fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;;
-        height: 100%;
-        width: 100%;
-        right:0;
-        left:0;*/
     }  
     #ac-dim{
 
         height:700px;
         z-index:999;
-        background:url('https://upload.wikimedia.org/wikipedia/commons/5/5d/Alpenglow_Maroon_Bells,_Maroon_Lake,_Colorado.jpg');
-        background-attachment: fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+        background-color: #1374F2;
         margin-left: -1600px;
         margin-right: -1600px;
     }
@@ -204,13 +168,7 @@
     #dc-dim{
       
         height:700px;
-        z-index:999;
-        background:url('http://67.media.tumblr.com/43b8920511b6ae148a10128126a559b1/tumblr_o0chgmjP2Q1sq04bjo1_1280.jpg');
-        background-attachment: fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+        background-color: #1395F2;
         margin-left: -1600px;
         margin-right: -1600px;
     }
@@ -231,13 +189,7 @@
     #switch{
         padding-top: 100px;
         height:800px;
-        z-index:999;
-        background:url('http://i.imgur.com/HGGp1.jpg');
-        background-attachment: fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+        background-color: white;
         margin-left: -1600px;
         margin-right: -1600px;
         
@@ -298,7 +250,7 @@
         height: 300px;
     }
     #smart{
-        background-color:#585253;
+        background-color:rgb(14,95,166);
         height:700px;
         padding-top:100px;
         margin-left: -1600px;
@@ -308,7 +260,7 @@
       text-align: center;
     }
     #over{
-        background-color:#464A4D;
+        background-color:rgb(14,95,166);
         height:1500px;
         padding-top:100px;
         margin-left: -1600px;
@@ -333,6 +285,7 @@
     }
     #productTop .jumbotron{
         height:500px;  
+        border-right:1px solid rgb(14,95,166);
     }
     #productTop img{
         margin-top: 40px;
@@ -345,6 +298,7 @@
     }
     #productBottom .well{
         height: 500px;
+        border-right:1px solid rgb(14,95,166);
     }
     #productBottom img{
         display: block;
