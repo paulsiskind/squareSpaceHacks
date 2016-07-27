@@ -11,8 +11,11 @@
         $(window).scroll(function () {
               if ($(this).scrollTop() > 200) {
                   $('.scrollup').fadeIn(3000);
-                  $("#topHeader").fadeOut(2000);
+                  $("#topHeader").fadeOut(1500);
+              }else if ($(this).scrollTop() > 150) {
+                  $('.scrollDown').hide()
               }else if($(this).scrollTop()<200){
+                  $(".scrollDown").fadeIn(1500);
                   $("#topHeader").fadeIn(1500);
                   $('.scrollup').fadeOut(1500);
               }
@@ -23,6 +26,10 @@
                   scrollTop: 0
               }, 600);
               return false;
+        });
+          $('.scrollDown').slideDown().click(function (evn) {
+               evn.preventDefault();
+              $('html,body').scrollTo(this.hash, this.hash);
         });
         $(".well>.btn, .jumbotron>.btn").click(function(evn){
               console.log("tacos");
@@ -41,40 +48,53 @@
       overflow-x: hidden;
       font-family: 'Roboto', sans-serif;
   }
+    .horizontal-navigation-bar{
+        display: none;
+    } 
     #page-title{
         display:none;
     }
     .headerLight{
         margin-bottom: 40px;
     }
+    .headerLight h2{
+        font-size: 70px;
+    }
+    .headerLight h3{
+        font-size: 40px;
+        text-align: center;
+    }
 
     #top{ 
         background-color:rgb(14,95,166);
-        height:500px;
-        padding-top:100px;
+        height:1000px;
+        padding-top:300px;
         margin-left: -1600px;
         margin-right: -1600px;
    
     }
-    #top h2, #top h3 {
+    a.scrollDown{
+        display: none;
+        text-align: center;
+        position:fixed;
+        bottom: 20px;
+        left: 0;
+        right:0;
+        z-index: 999;
+        color: black;
+        font-size: 40px;
+    }
+    a.menu{
+        position: fixed;
+        left:10px;
+        top: 50px;
+        z-index: 999;
+        color: black;
+    }
+    #top h3 {
         color:white;
         text-align:center;
-    }
-    #top h2{
-        font-size: 100px;
-        font-style: bold;
-        color: black;
-        -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-        -webkit-text-stroke-width: 1px;
-        -webkit-text-stroke-color: black;
-        text-shadow:    3px 3px 0 #000,
-        -1px -1px 0 #000,  
-         1px -1px 0 #000,
-        -1px 1px 0 #000,
-         1px 1px 0 #000;
-    }
-    #top h3{
-        font-size: 45px;
+        font-size: 60px;
     }
     #top-mid{
         text-align:center;
@@ -84,7 +104,7 @@
     #ambr{
         height:800px;
         z-index:999;
-        background-color: white;
+        background-color: rgb(209,209,209);
         margin-left: -1600px;
         margin-right: -1600px;
     }
@@ -107,7 +127,7 @@
     #filler2{
         height:400px;
         z-index:999;
-        background:url('http://static1.squarespace.com/static/54db9f6de4b088f32cfb6567/t/577d401446c3c420f49c7451/1467826198415/Screen+Shot+2016-07-06+at+11.28.56+AM.png');
+        background:url('http://www.yourenergyblog.com/wp-content/uploads/2014/01/industrial-lighting.png');
         background-attachment: fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -119,7 +139,7 @@
     #filler3{
          height:400px;
          z-index:999;
-        background:url('http://images.fineartamerica.com/images-medium-large-5/fall-at-maroon-bells-john-bielick.jpg');
+        background:url('http://www.yourenergyblog.com/wp-content/uploads/2014/01/industrial-lighting.png');
         background-attachment: fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -131,7 +151,7 @@
     #filler4{
         height:400px;
         z-index:999;
-        background:url('http://www.aspensquarehotel.com/sites/default/files/styles/full_width_banner_image/public/things-to-do-banner-image/maroon-bells-in-aspen-colorado-usa_banner.jpg?itok=oyS13SyH');
+        background:url('http://www.yourenergyblog.com/wp-content/uploads/2014/01/industrial-lighting.png');
         background-attachment: fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -148,8 +168,11 @@
         margin-left: -1600px;
         margin-right: -1600px;
     }
-    #ac-dim h1, #ac-dim h2, #ac-dim h4{
+    #ac-dim p, #ac-dim h2, #ac-dim h4{
         text-align:center;
+    }
+    #ac-dim .headerLight h2, #ac-dim .headerLight h3{
+        color: white;
     }
      .cert img{
         width:19.5%;
@@ -159,7 +182,7 @@
     }
     #certifications{
         text-align:center;
-        background-color:rgb(209,209,209);
+        background-color:white;
         height:700px;
         padding-top:100px;
         margin-left: -1600px;
@@ -172,8 +195,11 @@
         margin-left: -1600px;
         margin-right: -1600px;
     }
-    #dc-dim h1, #dc-dim h2, #dc-dim h4{
+    #dc-dim p, #dc-dim h2, #dc-dim h4{
         text-align:center;
+    }
+    #dc-dim .headerLight h2, #dc-dim .headerLight h3{
+        color:white;
     }
     #screenShots{
         background-color:#585253;
@@ -186,6 +212,9 @@
         text-align: center;
         margin-bottom: 100px;
     }
+    #screenShotsHeader h2,#screenShotsHeader h3,#screenShotsHeader h4{
+        color: white;
+    }
     #switch{
         padding-top: 100px;
         height:800px;
@@ -195,7 +224,7 @@
         
 
     }
-    #switch h1, #switch h2, #switch h4{
+    #switch p, #switch h2, #switch h4{
         text-align: center;
     }
     #sensor-ml{
@@ -206,7 +235,10 @@
         margin-right: -1600px;
       
     }
-    #sensor-ml h1, #sensor-ml h2, #sensor-ml h4{
+    #sensor-ml .headerLight h2, #sensor-ml .headerLight h3{
+        color: white;
+    }
+    #sensor-ml p, #sensor-ml h2, #sensor-ml h4{
         text-align: center;
     }
     #mlth2{
@@ -216,9 +248,13 @@
         margin-left: -1600px;
         margin-right: -1600px;
     }
+    #mlth2 .headerLight h2, #mlth2 .headerLight h3{
+        color: white;
+    }
     #mlth2 h1, #mlth2 h2, #mlth2 h4{
         text-align: center;
     }
+
     #roi{
         text-align: center;
         background-color:ivory;
@@ -256,8 +292,11 @@
         margin-left: -1600px;
         margin-right: -1600px;
     }
+    #smart .headerLight h2, #smart .headerLight h3{
+        color:white;
+    }
     #smart h1, #smart h2, #smart h4{
-      text-align: center;
+        text-align: center;
     }
     #over{
         background-color:rgb(14,95,166);
@@ -274,7 +313,13 @@
         margin:3px;
     }
     #over h1{
+        font-size: 70px;
+    } 
+    #over h2{
         color:white;
+        font-size: 70px;
+        text-align: center;
+        margin-bottom: 100px;
     }
     #ambrOver{
         margin-right:3px;
