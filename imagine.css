@@ -60,6 +60,38 @@
         z-index: 999;
         color: black;
         font-size: 40px;
+        margin-left: -1600px;
+        margin-right: -1600px;
+        animation: bounce 2s infinite;
+        -webkit-animation: bounce 2s infinite;
+        -moz-animation: bounce 2s infinite;
+        -o-animation: bounce 2s infinite;
+    }
+    .fa-angle-double-down:before {content: "\f103";}
+ 
+   
+ 
+    @-webkit-keyframes bounce {
+        0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);} 
+        40% {-webkit-transform: translateY(-30px);}
+        60% {-webkit-transform: translateY(-15px);}
+    }
+     
+    @-moz-keyframes bounce {
+        0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
+        40% {-moz-transform: translateY(-30px);}
+        60% {-moz-transform: translateY(-15px);}
+    }
+     
+    @-o-keyframes bounce {
+        0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
+        40% {-o-transform: translateY(-30px);}
+        60% {-o-transform: translateY(-15px);}
+    }
+    @keyframes bounce {
+        0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+        40% {transform: translateY(-30px);}
+        60% {transform: translateY(-15px);}
     }
     p.menu{
         position: fixed;
@@ -81,8 +113,58 @@
         text-align:center;
         font-size: 60px;
     }
-    #top-mid{
+    #topMid{
+        margin-left: -1600px;
+        margin-right: -1600px;
+        text-align:left;
+        padding-top: 100px;
+        height: 400px;
+        background-color: rgb(209,209,209);
+    }
+    #data{
+        margin-left: -1600px;
+        margin-right: -1600px;
+        padding-top: 100px;
+        height: 500px;
+        font-color: white;
+        background-color: blue;
+
+    }
+    #office{
+        height:700px;
+        z-index:999;
+        background:url('http://static1.squarespace.com/static/54db9f6de4b088f32cfb6567/t/579bb7f6bebafb74c7ba729d/1469822982416/office.png');
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin-left: -1600px;
+        margin-right: -1600px;
+
+    }
+    #office img{
+        width:600px;
+        padding-bottom: 100px;
+    }
+    #dash{
         text-align:center;
         height: 800px;
+    }
+    #residence{
+        margin-left: -1600px;
+        margin-right: -1600px;
+        padding-top: 100px;
+        height: 500px;
+        background-color: blue;
+
+    }
+    #commercial{
+        margin-left: -1600px;
+        margin-right: -1600px;
+        padding-top: 100px;
+        height: 500px;
+        background-color: grey;
+
     }
 </style>

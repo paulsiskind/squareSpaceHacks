@@ -39,7 +39,8 @@
               $(this).css('cursor', 'pointer');          
         });
         $(".menu").click(function(){
-            $(".horizontal-navigation-bar").toggle();
+           /* $(".horizontal-navigation-bar").toggle();*/
+           $("#navBar").toggle();
         });
         $('.scrollDown').slideDown(1000, function(){
             $(this).slideUp();
@@ -61,6 +62,14 @@
 
        
     } 
+    #navBar{
+        height:100%;
+        position: fixed;
+        
+        background-color: black;
+        color:white;
+        z-index: 999;
+    }
     .fa-angle-double-down:before {content: "\f103";}
  
    
