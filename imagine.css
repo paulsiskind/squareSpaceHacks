@@ -1,0 +1,88 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/paper/bootstrap.min.css">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+ <script>
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 200) {
+                $('.scrollup').fadeIn(3000);
+                $("#topHeader").fadeOut(2000);
+                $('.scrollDown').hide()
+            }else if($(this).scrollTop()<200){
+                $("#topHeader").fadeIn(1500);
+                $(".scrollDown").fadeIn(1500);
+                $('.scrollup').fadeOut();
+            }
+        });
+        $('.scrollup').click(function () {
+            $("html, body").animate({
+               scrollTop: 0
+            }, 600);
+            return false;
+        });
+        $(".menu").click(function(){
+            $(".horizontal-navigation-bar").toggle();
+        });
+        $('.scrollDown').slideDown().click(function (evn) {
+            evn.preventDefault();
+            $('html,body').scrollTo(this.hash, this.hash);
+        });
+    });
+</script>
+
+
+<style>
+    html, body {
+      max-width: 100%;
+      overflow-x: hidden;
+      font-family: 'Roboto', sans-serif;
+    }
+    .horizontal-navigation-bar{
+        display: none;
+        position: fixed !important;
+        z-index: 9999;
+        left: 100px;
+    } 
+    #page-title{
+        display:none;
+    }
+    a.scrollDown{
+        display: none;
+        text-align: center;
+        position:fixed;
+        bottom: 20px;
+        left: 0;
+        right:0;
+        z-index: 999;
+        color: black;
+        font-size: 40px;
+    }
+    p.menu{
+        position: fixed;
+        left:10px;
+        top: 50px;
+        z-index: 999;
+        color: black;
+    }
+    #top{ 
+        background-color:rgb(14,95,166);
+        height:1000px;
+        padding-top:300px;
+        margin-left: -1600px;
+        margin-right: -1600px;
+   
+    }
+    #top h3 {
+        color:white;
+        text-align:center;
+        font-size: 60px;
+    }
+    #top-mid{
+        text-align:center;
+        height: 800px;
+    }
+</style>
