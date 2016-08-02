@@ -308,7 +308,7 @@
 
     #roi{
         text-align: center;
-        background-color:ivory;
+        background-color:white;
         height:700px;
         padding-top:100px;
         margin-left: -1600px;
@@ -338,7 +338,7 @@
     }
     #smart{
         background-color:rgb(14,95,166);
-        height:700px;
+        height:800px;
         padding-top:100px;
         margin-left: -1600px;
         margin-right: -1600px;
