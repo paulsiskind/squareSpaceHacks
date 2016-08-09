@@ -8,10 +8,10 @@
  <script>
     $(document).ready(function () {
         $(window).scroll(function () {
-            if ($(this).scrollTop() >= 200) {
+            if ($(this).scrollTop() >= 205) {
                 $('.scrollup').fadeIn(3000);
                 $("#topHeader").fadeOut(2000);
-                $('.scrollDown').hide()
+                $('.scrollDown').fadeOut(1500)
                 $("#hiddenHeader").fadeIn(1500);
             }else if($(this).scrollTop() < 200){
                 $("#topHeader").fadeIn(1500);
@@ -53,7 +53,7 @@
         display:none;
     }
     #hiddenHeader{
-        text-align: center;
+      
         position: absolute;
         top:470px;
         display:hidden;
@@ -132,14 +132,18 @@
     #topMid img{
         height:250px;
     }
-    #data{
+    #metering{
         margin-left: -1600px;
         margin-right: -1600px;
         padding-top: 100px;
         height: 500px;
-        font-color: white;
-        background-color: rgb(14,95,166);
+        color: white;
+      /*  background-color: rgb(14,95,166);*/
+        background: url('http://www.download3dhouse.com/wp-content/uploads/2013/02/Luxury-billiard-hall-interior-design.jpg');
 
+    }
+    #metering h4, #metering h2{
+        color: white;
     }
     #office{
         height:700px;

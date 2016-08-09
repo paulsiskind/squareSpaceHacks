@@ -9,14 +9,20 @@
 <script>
     $(document).ready(function () {
         $(window).scroll(function () {
-              if ($(this).scrollTop() > 200) {
-                  $('.scrollup').fadeIn(3000);
-                  $("#topHeader").fadeOut(1500);
-                  $('.scrollDown').hide()
-              }else if($(this).scrollTop()<200){
+              if($(this).scrollTop()<200){
                   $(".scrollDown").fadeIn(1500);
                   $("#topHeader").fadeIn(1500);
                   $('.scrollup').fadeOut(1500);
+              }
+              else if ($(this).scrollTop() > 200) {
+                  $('.scrollup').fadeIn(3000);
+                  $("#topHeader").fadeOut(1500);
+                  $('.scrollDown').hide()
+              }
+              else if($(this).scrollTop()>1000){
+                   $(".horizontal-navigation-bar").toggle();
+              /*}else if($(this).scrollTop()<1000){
+                  $('.horizontal-navigation-bar').toggle();*/
               }
            
         });
@@ -39,8 +45,8 @@
               $(this).css('cursor', 'pointer');          
         });
         $(".menu").click(function(){
-           /* $(".horizontal-navigation-bar").toggle();*/
-           $("#navBar").toggle();
+            $(".horizontal-navigation-bar").toggle();
+          /* $("#navBar").toggle();*/
         });
         $('.scrollDown').slideDown(1000, function(){
             $(this).slideUp();
@@ -246,6 +252,9 @@
         margin-left: -1600px;
         margin-right: -1600px;
     }
+  /*  #dc-dim img{
+        height: 100px;
+    }*/
     #dc-dim p, #dc-dim h2, #dc-dim h4{
         text-align:center;
     }
@@ -259,12 +268,24 @@
         margin-left: -1600px;
         margin-right: -1600px;
     }
+    #screenShots .col-xs-4 img{
+        height: 400px;
+    }
     #screenShotsHeader{
         text-align: center;
         margin-bottom: 100px;
     }
     #screenShotsHeader h2,#screenShotsHeader h3,#screenShotsHeader h4{
         color: white;
+    }
+    .modal-content{
+        background-color: rgb(14,95,166);
+    }
+    .modal-content img{
+       
+        height:800px;
+        margin:0 auto;
+        display:block;
     }
     #switch{
         padding-top: 100px;
@@ -388,9 +409,9 @@
         margin-bottom: 20px;
         width: 200px;
     }
-    #productBottom p{
+    #productBottom p, #productBottom h3{
         text-align: center;
-        margin-bottom: 40px;
+        margin-top: 40px;
     }
     #productBottom .well{
         height: 500px;
@@ -399,8 +420,7 @@
     #productBottom img{
         display: block;
         margin: 0 auto;
-        margin-bottom: 20px;
-        width: 200px;
+        height: 200px;
     }
     #productBottom .btn, #productTop .btn{
         position:absolute;
