@@ -142,7 +142,7 @@
     }  
     #joule{
         background-color:#1395F2;
-        height:800px;
+        height:1200px;
         padding-top:100px;
         margin-left: -1600px;
         margin-right: -1600px;
@@ -150,7 +150,36 @@
     #joule h1, #joule h2, #joule h4{
       text-align:center;
     }
-     .cert img{
+    #jouleModals{
+        padding-top: 70px;
+    }
+    #joule .col-xs-3 img{
+        height:200px;
+    }
+    .modal-content{
+        background-color: rgb(14,95,166);
+    }
+    .modal-content img{
+       
+        height:700px;
+        margin:0 auto;
+        display:block;
+    }
+    #screenShots{
+        background-color:white;
+        height:800px;
+        padding-top:100px;
+        margin-left: -1600px;
+        margin-right: -1600px;
+    }
+    #screenShotsHeader{
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    #screenShots .col-xs-4 img{
+        height: 400px;
+    }
+    .cert img{
         width:19.5%;
         display:inline;
         padding:15px;
@@ -166,7 +195,7 @@
     }
     #fossil{
         background-color:#1367F2;
-        height:800px;
+        height:1000px;
         padding-top:100px;
         margin-left: -1600px;
         margin-right: -1600px;
@@ -177,20 +206,15 @@
     #fossil h2, #fossil h3, #fossil h4{
         text-align: center;
     }
-    #screenShots{
-        background-color:white;
-        height:800px;
-        padding-top:100px;
-        margin-left: -1600px;
-        margin-right: -1600px;
+    #fossil .col-xs-6 img{
+        height:200px;
     }
-    #screenShotsHeader{
-        text-align: center;
-        margin-bottom: 100px;
+    #fossilModal{
+        padding-top: 70px;
     }
     #meter{
         background-color:rgb(14,95,166);
-        height:900px;
+        height:1200px;
         padding-top:100px;
         margin-left: -1600px;
         margin-right: -1600px;
@@ -202,7 +226,13 @@
     }
     #meter h1, #meter h2, #meter h4{
         text-align: center;
-    }  
+    }
+    #meter .col-xs-6 img{
+        height:200px;
+    }
+    #meterModal{
+        padding-top: 70px;
+    }
     #roi{
         text-align: center;
         background-color:#f2f2f2;

@@ -9,35 +9,28 @@
 <script>
     $(document).ready(function () {
         $(window).scroll(function () {
-              if($(this).scrollTop()<200){
-                  $(".scrollDown").fadeIn(1500);
-                  $("#topHeader").fadeIn(1500);
-                  $('.scrollup').fadeOut(1500);
-              }
-              else if ($(this).scrollTop() > 200) {
-                  $('.scrollup').fadeIn(3000);
-                  $("#topHeader").fadeOut(1500);
-                  $('.scrollDown').hide()
-              }
-              else if($(this).scrollTop()>1000){
-                   $(".horizontal-navigation-bar").toggle();
-              /*}else if($(this).scrollTop()<1000){
-                  $('.horizontal-navigation-bar').toggle();*/
-              }
-           
+            if($(this).scrollTop()<200){
+                $(".scrollDown").fadeIn(1500);
+                $("#topHeader").fadeIn(1500);
+                $('.scrollup').fadeOut(1500);
+            }
+            else if ($(this).scrollTop() > 200) {
+                $('.scrollup').fadeIn(3000);
+                $("#topHeader").fadeOut(1500);
+                $('.scrollDown').hide()
+            }
         });
         $('.scrollup').click(function () {
-              $("html, body").animate({
-                  scrollTop: 0
-              }, 600);
-              return false;
+            $("html, body").animate({
+                scrollTop: 0
+            }, 1000);
+            return false;
         });
         $('.scrollDown').slideDown().click(function (evn) {
                evn.preventDefault();
               $('html,body').scrollTo(this.hash, this.hash);
         });
         $(".well>.btn, .jumbotron>.btn").click(function(evn){
-              console.log("tacos");
               evn.preventDefault();
               $('html,body').scrollTo(this.hash, this.hash); 
         });
@@ -48,9 +41,6 @@
             $(".horizontal-navigation-bar").toggle();
           /* $("#navBar").toggle();*/
         });
-        $('.scrollDown').slideDown(1000, function(){
-            $(this).slideUp();
-            })
     });
 </script>
 
@@ -168,15 +158,30 @@
         text-align:center;
         font-style: bold;
     }
+    #ambr .btn{
+        width:100%;
+        margin-left: auto;
+        margin-right: auto;
+        left:0px;
+        right:0px;
+      
+    
+    }
     .imgClass>img{
         padding-bottom: 30px;
+    }
+    .imgClass .btn{
+        width:100%;
+        margin-left: auto;
+        margin-right: auto;
+        left:0px;
+        right:0px;
     }
     #filler1{
         background-color:rgb(110,114,122);
         padding-top: 100px;
         text-align: center;
         height:500px;
-        padding-top:100px;
         margin-left: -1600px;
         margin-right: -1600px;
     }
@@ -373,7 +378,7 @@
     #over{
         background-color:rgb(14,95,166);
         height:1500px;
-        padding-top:100px;
+        padding-top:70px;
         margin-left: -1600px;
         margin-right: -1600px;
     }
@@ -384,17 +389,17 @@
     #over jumbotron{
         margin:3px;
     }
-    #over h1{
-        font-size: 50px;
-    } 
     #over h2{
         color:white;
         font-size: 50px;
         text-align: center;
         margin-bottom: 100px;
     }
-    #ambrOver{
-        margin-right:3px;
+  /*  #productTop img{
+        height: 70px;
+    }*/
+    #productTop p{
+        padding-bottom: 15px;
     }
     #productTop{
         margin-bottom: 100px;
@@ -423,6 +428,7 @@
         height: 200px;
     }
     #productBottom .btn, #productTop .btn{
+        margin-top: 100px;
         position:absolute;
         margin-left: auto;
         margin-right: auto;
