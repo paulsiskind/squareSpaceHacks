@@ -26,7 +26,7 @@
             }, 1000);
             return false;
         });
-        $('.scrollDown').slideDown().click(function (evn) {
+        $('.scrollDown').click(function (evn) {
                evn.preventDefault();
               $('html,body').scrollTo(this.hash, this.hash);
         });
@@ -306,21 +306,7 @@
         color: white;
         
     }
-    #dc-dim{
-        padding-top: 70px;
-        color:white;
-        height:700px;
-        background-color: #1374F2;
-        margin-left: -1600px;
-        margin-right: -1600px;
-    }
-
-    #dc-dim h3, #dc-dim h2, #dc-dim h4{
-        text-align:left;
-    }
-    #dc-dim .headerLight h2, #dc-dim .headerLight h3{
-        color:white;
-    }
+ 
     #dc-dim img{
         height:250px;
         width: auto;
