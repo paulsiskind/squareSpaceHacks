@@ -256,7 +256,7 @@
         margin-right: -1600px;
     } 
     .header{
-        background-color: #1374F2;
+        background-color: rgb(14,95,166);
         z-index:999;
         margin-left: -1600px;
         margin-right: -1600px;
@@ -295,7 +295,7 @@
         color: white;
         height:500px;
         z-index:999;
-        background-color: white;
+        background-color: rgb(14,95,166);
         margin-left: -1600px;
         margin-right: -1600px;
     }
@@ -310,7 +310,7 @@
         padding-top: 70px;
         color:white;
         height:700px;
-        background-color: #1374F2;
+        background-color: rgb(14,95,166);
         margin-left: -1600px;
         margin-right: -1600px;
     }
@@ -331,7 +331,7 @@
         color:white;
         padding-top: 70px;
         height:800px;
-        background-color: #1374F2;
+        background-color:rgb(14,95,166);
         margin-left: -1600px;
         margin-right: -1600px;
         
@@ -343,7 +343,7 @@
     }
     #sensor-ml{
         color:white;
-        background-color:#1374F2;
+        background-color:rgb(14,95,166);
         height:800px;
         padding-top:70px;
         margin-left: -1600px;
@@ -358,7 +358,7 @@
     }
     #mlth2{
         color:white;
-        background-color:#1374F2;
+        background-color:rgb(14,95,166);
         height:700px;
         padding-top:70px;
         margin-left: -1600px;
@@ -373,7 +373,7 @@
 
     #smart{
 
-        background-color:#1374F2;
+        background-color:rgb(14,95,166);
         height:700px;
         padding-top:70px;
         margin-left: -1600px;

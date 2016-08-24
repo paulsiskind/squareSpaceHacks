@@ -1,0 +1,158 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/paper/bootstrap.min.css">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            if($(this).scrollTop()<200){
+                $(".scrollDown").fadeIn(1500);
+                $("#topHeader").fadeIn(1500);
+                $('.scrollup').fadeOut(1500);
+            }
+            else if ($(this).scrollTop() > 200) {
+                $('.scrollup').fadeIn(3000);
+                $("#topHeader").fadeOut(1500);
+                $('.scrollDown').hide()
+            }
+        });
+        $('.scrollup').click(function () {
+            $("html, body").animate({
+                scrollTop: 0
+            }, 1000);
+            return false;
+        });
+        $('.scrollDown').slideDown().click(function (evn) {
+               evn.preventDefault();
+              $('html,body').scrollTo(this.hash, this.hash);
+        });
+        $(".well>.btn, .jumbotron>.btn").click(function(evn){
+              evn.preventDefault();
+              $('html,body').scrollTo(this.hash, this.hash); 
+        });
+        $(".modalImg").hover(function(){
+              $(this).css('cursor', 'pointer');          
+        });
+    });
+</script>
+
+<style>
+
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+        font-family: 'Roboto', sans-serif;
+    }
+    #page-title{
+        display:none;
+    }
+    #top{ 
+        background-color:rgb(14,95,166);
+        height:1000px;
+        padding-top:300px;
+        margin-left: -1600px;
+        margin-right: -1600px;
+   
+    }
+    #top h3 {
+        color:white;
+        text-align:center;
+        font-size: 60px;
+    }
+    a.scrollDown{
+        display: none;
+        text-align: center;
+        position:fixed;
+        bottom: 20px;
+        left: 0;
+        right:0;
+        z-index: 999;
+        color: black;
+        font-size: 40px;
+     
+        animation: bounce 2s infinite;
+        -webkit-animation: bounce 2s infinite;
+        -moz-animation: bounce 2s infinite;
+        -o-animation: bounce 2s infinite;
+    }
+    @-webkit-keyframes bounce {
+     0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);} 
+     40% {-webkit-transform: translateY(-30px);}
+     60% {-webkit-transform: translateY(-15px);}
+    }
+     
+    @-moz-keyframes bounce {
+     0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
+     40% {-moz-transform: translateY(-30px);}
+     60% {-moz-transform: translateY(-15px);}
+    }
+     
+    @-o-keyframes bounce {
+     0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
+     40% {-o-transform: translateY(-30px);}
+     60% {-o-transform: translateY(-15px);}
+    }
+    @keyframes bounce {
+     0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+     40% {transform: translateY(-30px);}
+     60% {transform: translateY(-15px);}
+    }
+    #introduction{
+        text-align: center;
+        height:500px;
+        padding-top: 150px;
+        background: url(http://upload.wikimedia.org/wikipedia/commons/d/dd/Muybridge_race_horse_animated.gif)no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin-left: -1600px;
+        margin-right: -1600px;
+        /*background:url(http://upload.wikimedia.org/wikipedia/commons/d/dd/Muybridge_race_horse_animated.gif) no-repeat center center fixed; 
+        background-size: cover;*/
+    }
+    #introduction h3{
+        color:white;
+    }
+    #introduction h2{
+        padding-top: 60px;
+        color:rgb(14,95,166);
+        font-size: 60px;
+        font-style:bold;
+    }
+    #dashboard{
+        padding-top:100px;
+        text-align:center;
+        height: 800px;
+    }
+    #screenShots{
+        background-color:#585253;
+        height:600px;
+        margin-left: -1600px;
+        margin-right: -1600px;
+    }
+    .col-xs-4 img{
+        height: 300px;
+    }
+    #screenShotsHeader{
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    #screenShotsHeader h2,#screenShotsHeader h3,#screenShotsHeader h4{
+   
+    }
+    .modal-content{
+        background-color: rgb(14,95,166);
+    }
+    .modal-content img{
+       
+        height:700px;
+        margin:0 auto;
+        display:block;
+    }
+
+</style>
