@@ -1,0 +1,32 @@
+total 840
+-rw-r--r--  1 paulsiskind  staff  13839 Jun 21 15:40 AccordianDash2
+-rw-r--r--  1 paulsiskind  staff  13277 Jun 20 10:00 AccordianDashboard.html
+-rw-r--r--  1 paulsiskind  staff  33460 Jun 22 15:30 EnergyDashSelector
+-rw-r--r--  1 paulsiskind  staff  14356 Jul  6 09:41 RetroT8Tabs
+-rw-r--r--  1 paulsiskind  staff  14188 Jul  6 09:27 SmartPanelRetroKit
+-rw-r--r--  1 paulsiskind  staff   2459 Jun 23 15:18 T8-Retro
+-rw-r--r--  1 paulsiskind  staff   5862 Jun 21 15:44 UserIntro.html
+-rw-r--r--  1 paulsiskind  staff  28619 Jul  6 10:40 accordianJoule.html
+-rw-r--r--  1 paulsiskind  staff  15207 Jun 20 14:46 dashb oard4
+-rw-r--r--  1 paulsiskind  staff  16336 Jun 21 16:43 dashboard4
+-rw-r--r--  1 paulsiskind  staff   7725 Aug  9 12:17 energyNow.css
+-rw-r--r--  1 paulsiskind  staff  18247 Aug  9 12:17 energyNow.html
+-rw-r--r--  1 paulsiskind  staff   5264 Aug  2 16:57 imagine.css
+-rw-r--r--  1 paulsiskind  staff   3131 Aug  2 16:50 imagine.html
+-rw-r--r--  1 paulsiskind  staff   8158 Jul 21 11:30 lightNow.css
+-rw-r--r--  1 paulsiskind  staff  10371 Jul 22 11:14 lightNow2.css
+-rw-r--r--  1 paulsiskind  staff  11087 Aug 10 16:10 lightNow3.css
+-rw-r--r--  1 paulsiskind  staff  18270 Aug 10 16:08 lightNow3.html
+-rw-r--r--  1 paulsiskind  staff   5611 Aug 24 17:01 lightingNext.css
+-rw-r--r--  1 paulsiskind  staff   5536 Aug 24 16:48 lightingNext.html
+-rw-r--r--  1 paulsiskind  staff  16229 Jul 19 10:25 lightingNow.html
+-rw-r--r--  1 paulsiskind  staff  16320 Jul 26 16:28 lightingNow2.html
+-rw-r--r--  1 paulsiskind  staff  11095 Aug 11 14:48 lightingNow4.css
+-rw-r--r--  1 paulsiskind  staff  10541 Aug 23 15:29 lightingNow5.css
+-rw-r--r--  1 paulsiskind  staff  17872 Aug 23 15:23 lightingNow5.html
+-rw-r--r--  1 paulsiskind  staff  10143 Aug 19 15:51 lightingNow6.css
+-rw-r--r--  1 paulsiskind  staff  16879 Aug 11 14:56 lightingnow4.html
+-rw-r--r--  1 paulsiskind  staff  15263 Aug 23 15:05 ligntingNow6.html
+-rw-r--r--  1 paulsiskind  staff      0 Aug 25 10:42 ls.txt
+-rw-r--r--  1 paulsiskind  staff   9664 Jun 27 13:54 t8retro.html
+-rw-r--r--  1 paulsiskind  staff     19 Aug 25 10:27 taco.txt
